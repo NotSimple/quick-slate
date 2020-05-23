@@ -1,7 +1,7 @@
 #!/usr/bin/env bash
 
 docker_image="itsnotsimple/quick-slate"
-docker_container_name="slatedocs_app"
+docker_container_name="quickslate_app"
 slate_source_path="slate/source"
 slate_build_path="slate/build"
 

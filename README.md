@@ -1,8 +1,6 @@
 # quick-slate
 
-Dockerized [slate docs](<https://github.com/slatedocs/slate>) for quick editing docs.
-
-Inspired by [this repo](<https://github.com/slatedocs/slate/wiki/Docker>)
+Dockerized [slate docs](<https://github.com/slatedocs/slate>) for quickly and easily editing api documentation.
 
 ## Usage
 
@@ -30,12 +28,12 @@ In the [config file](./config) you can configure variables variables and functio
 
 ### Config Variables
 
-| Name | Description |
-| ------ |------ |
-| docker_image | Docker image to use |
-| docker_container_name | Name of docker container created with the [start server script](./start-server.sh) |
-| slate_source_path | path to the slate source folder on your local machine (automatically created at path specified) |
-| slate_build_path | path to the slate build folder on your local machine (automatically created at path specified) |
+| Name | Description | Default |
+| ------ |------ | ------ |
+| docker_image | Docker image to use | itsnotsimple/quick-slate |
+| docker_container_name | Name of docker container created with the [start server script](./start-server.sh) | quickslate_app |
+| slate_source_path | path to the slate source folder on your local machine (automatically created at path specified) | slate/source |
+| slate_build_path | path to the slate build folder on your local machine (automatically created at path specified) | slate/build |
 
 ## Dockerfile
 
