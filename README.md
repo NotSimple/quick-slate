@@ -1,6 +1,6 @@
 # quick-slate
 
-Dockerized [slate docs](<https://github.com/slatedocs/slate>) for quickly and easily editing api documentation.
+Helpful scripts to run dockerized [slate docs](<https://github.com/slatedocs/slate>) for quickly and easily editing api documentation.
 
 ## Usage
 
